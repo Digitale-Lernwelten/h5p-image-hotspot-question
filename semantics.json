@@ -31,11 +31,26 @@
         "fields": [
           {
             "name": "taskDescription",
-            "type": "text",
             "label": "Task description",
             "importance": "high",
             "description": "Instructions to the user.",
-            "optional": true
+            "optional": true,
+            "type": "text",
+            "widget": "html",
+            "enterMode": "p",
+            "tags": [
+              "strong",
+              "em",
+              "del",
+              "a",
+              "ul",
+              "ol",
+              "h2",
+              "h3",
+              "hr",
+              "pre",
+              "code"
+            ]
           },
           {
             "name": "hotspot",
